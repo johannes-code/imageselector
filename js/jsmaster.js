@@ -2,8 +2,6 @@ const selectElement = document.getElementById('picture_select');
 
 function display_image(){
 const img = document.getElementById('display_image')
-
-
 selectElement.addEventListener('change', function () {
     img.src = selectElement.value;
 });
@@ -18,8 +16,6 @@ function createOptions(){
         selectElement.appendChild(createOption)
     })
 }
-
-
 
 const images =  [
     {

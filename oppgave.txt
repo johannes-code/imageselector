@@ -1,0 +1,17 @@
+Forhåndskrav:
+Du må kunne grunnleggende html, css og DOM manipulation i javascript.
+
+Oppgaven
+I denne oppgaven skal du lage en nettside hvor man kan velge et bilde fra en liste. Når bildet blir valgt fra listen skal bildet vises på nettsiden.
+
+Hva skal være med?
+Du skal bruke html elementene <select> og <option> for å kunne velge mellom de forskjellige bildene. <label> skal også brukes for <select> elementet.
+Selve javascript logikken for å få byttet bildene skal gjøres på en av disse måtene (gjerne prøv ut alle og kommenter ut etterhvert som man får det til):
+if else
+switch case
+eventlistener 
+Tips
+Husk at du må fange opp elementene fra html inn i javascript (document.getElementById()), så du trenger i tillegg forskjellige id til de html elementene du skal manipulere.
+Lengden på html filen trenger ikke være så lang (ca 40 linjer)
+Lengden på javascript filen kan være veldig kort om du kun bruker en av metodene beskrevet tidligere (10-20 linjer. Ca 30 linjer om du prøver ut alle 3 metodene)
+Ikke overkompliser css filen. Dette er kun en "komponent"/seksjon til en nettside
